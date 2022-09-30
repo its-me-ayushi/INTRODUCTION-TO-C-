@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+    int marks;
+    float per;
+    printf("enter the marks:");
+    scanf("%d",&marks);
+    if(mark>=60)
+    {
+        printf("%d is first devision",marks);
+    }
+    else if(mark>45&&mark<=59)
+    {
+        printf("%d is second devision\n",marks);
+        
+    }
+    else if(mark>33&&mark<45)
+    {
+        printf("%d is third devision\n",marks);
+        
+        }
+        else if(mark=33)
+        {
+            printf("%d is fail\n",marks);
+        }
+        else 
+        {
+            printf("%d is worng input\n",marks)
+        }
+        
+        
+    return 0;
+    
+}
